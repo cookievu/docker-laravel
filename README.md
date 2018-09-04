@@ -14,11 +14,13 @@ git clone https://github.com/cookievu/docker-laravel.git
 
 #####  Edit your environment
 ```
+cd docker-laravel
+```
+```
 cp .env.example .env
 ```
 
 #####  Build images
-Inside docker-laravel folder
 ```
 docker-compose up -d --build
 ```
